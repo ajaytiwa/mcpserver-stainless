@@ -93,10 +93,7 @@ client = Petstoreraml()
 pet = client.pets.create(
     name="doggie",
     photo_urls=["string"],
-    category={
-        "id": 1,
-        "name": "Dogs",
-    },
+    category={},
 )
 print(pet.category)
 ```
